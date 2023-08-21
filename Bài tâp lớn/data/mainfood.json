@@ -1,0 +1,55 @@
+[{
+    "img": "banhkem.jpg",
+    "name": "Bánh kem"
+}, {
+    "img": "banhmi.jpg",
+    "name": "Bánh mì"
+}, {
+    "img": "bia.jpg",
+    "name": "Bia"
+}, {
+    "img": "caphe.jpg",
+    "name": "Cà phê"
+}, {
+    "img": "chao.jpg",
+    "name": "Cháo"
+}, {
+    "img": "com.png",
+    "name": "Cơm"
+}, {
+    "img": "comcuon.jpg",
+    "name": "Cơm cuộn"
+}, {
+    "img": "doanvat.jpg",
+    "name": "Đồ ăn vặt"
+}, {
+    "img": "ga.jpg",
+    "name": "Gà"
+}, {
+    "img": "hamburger.jpg",
+    "name": "Hamburger"
+}, {
+    "img": "hutieu.png",
+    "name": "Hủ tiếu"
+}, {
+    "img": "lau.jpg",
+    "name": "Lẩu"
+}, {
+    "img": "mi.png",
+    "name": "Mì"
+}, {
+    "img": "pho.png",
+    "name": "Phở"
+}, {
+    "img": "pizza.jpg",
+    "name": "Pizza"
+}, {
+    "img": "ruou.jpg",
+    "name": "Rượu"
+}, {
+    "img": "sinhto.jpg",
+    "name": "Sinh tố"
+}, {
+    "img": "trasua.jpg",
+    "name": "Trà sữa"
+}]

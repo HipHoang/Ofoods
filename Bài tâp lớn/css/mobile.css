@@ -1,0 +1,61 @@
+main.flex, nav,nav .center, footer {
+    flex-direction: column;
+}
+/*--------------nav-----------------*/
+nav {
+    left: -100%;
+}
+nav .center a {
+    background-color: lightgreen;
+}
+
+#show-bar, #hide-bar {
+    display: block;
+}
+/*--------------Mainimg-----------------*/
+.mainimg {
+    height: 200px;
+}
+
+.mainimg button {
+    width: 20px;
+    height: 40px;
+}
+
+.mainimg button i {
+    font-size: 15px;
+}
+
+/*--------------list-----------*/
+section.left {
+    width: 100%;
+    text-align: center;
+}
+
+section.right {
+    width: 100%;
+    background-image: none;
+    padding: 10px 0px;
+    flex-direction: column;
+}
+.food {
+    width: 100%;
+}
+
+#list .v-food {
+    width: 45%;
+}
+/*---------contacts&totop---------------*/
+#scrolltotop {
+    right: 10px;
+    bottom: 10px;
+    font-size: 30px;
+}
+
+.mes {
+    display: none;
+}
+
+
+
+

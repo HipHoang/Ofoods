@@ -1,0 +1,330 @@
+@keyframes move {
+    from {
+        margin-left: 0px;
+    } to {
+        margin-left: 100%;
+    }
+}
+
+/* .move {
+    animation: move 20s infinite;
+} */
+/*---------------------------------------ALL--------------------------*/
+body {
+    margin: 0px;
+    background-color: #f2f2f2;
+}
+
+.flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*-----------------------------------------------------NAV---------------------------------------------------------------*/
+
+nav {
+    justify-content: space-between;
+    height: 52px;
+    z-index: 999;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    background-color: rgba(252, 250, 250, 0.2);
+    display: block;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav .left {
+    align-items: center;
+    padding-left: 20px;
+}
+
+nav .left img {
+    height: 50px;
+    padding: 0px 30px 0px 0px;
+    margin: 0px;
+}
+
+nav select {
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+nav li:hover {
+    background-color: white;
+    border-bottom: 3px solid red;
+    border-radius: 5px;
+}
+
+nav .center li {
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+nav .center li a {
+    display: block;
+    padding: 1rem;
+    color: black;
+}
+
+nav .center li a:hover {
+    color: red;
+    border-bottom: 3px solid red;
+}
+
+nav .right {
+    align-items: center;
+    margin-right: 2%;
+}
+
+nav .right i {
+    font-size: 25px;
+    padding: 13px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+#show-bar {
+    display: none;
+    position: absolute;
+    font-size: 30px;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+    background-color: white;
+    cursor: pointer;
+}
+
+#hide-bar {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/*-------------------------------------------DROPDOWN MENU------------------------------------------------------*/
+
+nav li>ul {
+    background-color: white;
+    border-radius: 5px;
+    display: none;
+}
+
+nav li:hover>ul {
+    display: block;
+}
+
+nav li>ul a {
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+nav li>ul>li:last-child a {
+    border-bottom: none;
+}
+
+nav >li>ul>li:last-child a:hover {
+    border-bottom: 2px solid red;
+}
+
+.scroll {
+    background-color: white;
+}
+
+/*-------------------------------------------MAIN IMAGE---------------------------------*/
+
+.mainimg {
+    position: relative;
+    height: 360px;
+    overflow: hidden;
+    top: -8px;
+    width: 100%;
+}
+
+.mainimg .slide img{
+    width: 100%;
+    transform: translateY(-25%);
+    position: absolute;
+}
+
+.mainimg .slide img:hover button {
+    opacity: 1;
+}
+
+.mainimg:hover button {
+    opacity: 1;
+}
+
+.mainimg button {
+    width: 40px;
+    height: 80px;
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    opacity: 0;
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainimg button i {
+    font-size: 30px;
+}
+
+.mainimg button.leftbtn {
+    left: 0px;
+    top: 40%;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.mainimg button.rightbtn {
+    top: 40%;
+    right: 0;
+    border-radius: 5px 0px 0px 5px;
+}
+
+/*-----------------------------------PRODUCTS-------------------------*/
+.foods {
+    flex-wrap: wrap;
+}
+
+h1 {
+    margin-left: 1rem;
+}
+
+.food {
+    position: relative;
+    width: 23%;
+    margin: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    object-fit: cover;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.sale {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: rgba(126, 221, 141, 0.6);
+    border-radius: 0px 10px 0px 5px;
+    padding: 2px 15px;
+    z-index: 100;
+    color: darkblue;
+}
+
+.food img {
+    width: 100%;
+    height: 200px;
+    transition: all ease 0.7s;
+    border-radius: 10px;
+}
+
+.food:hover img {
+    transform: scale(1.2,1.2);
+}
+
+/*---------------------------------------FOOTER-----------------------------------*/
+
+footer {
+    background-image: linear-gradient(blue,lightblue,white);
+    margin: 0px;
+}
+
+footer a {
+    color: black;
+}
+
+footer > div {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    padding: 15px;
+    margin: 0px;
+}
+
+footer p {
+    margin: 0px;
+    padding: 5px 0px 5px;
+}
+
+.footer-left img {
+    background-color: rgb(223, 156, 159);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.footer-cleft h1 {
+    margin: 0px;
+}
+footer img {
+    width: 180px;
+}
+
+.footer-copyright {
+    background-color: aqua;
+}
+
+.footer-copyright h4 {
+    margin: 0px;
+    padding: 5px 0px;
+}
+
+/*----------------------------------CONTACT&SCROLL--------------------------------*/
+
+.mess {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: white;
+    right: -45px;
+    top: 60%;
+    z-index: 1000;
+    transition: all ease 1s;
+}
+
+.mess:hover {
+    right:10px;
+}
+
+.mes {
+    border: 1px solid black;
+    padding: 0px;
+}
+
+.mess a {
+    display: block;
+    padding: 0.5rem;
+}
+
+.mes img {
+    width: 50px;
+}
+
+#scrolltotop {
+    position: fixed;
+    font-size: 50px;
+    background-color: rgba(231, 32, 32, 0.6);
+    right: 20px;
+    bottom: 30px;
+    display:none;
+    z-index: 110;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 10px;
+}
+

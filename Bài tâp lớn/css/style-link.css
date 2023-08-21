@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap');
+main.flex {
+    margin-left: 1rem;
+}
+/*---------------------------------------LEFT----------------------------*/
+
+section.left {
+    width: 20%;
+    background-color: aqua;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: goldenrod;
+    flex-direction: column;
+}
+
+ul.menu > li {
+    width: 100%;
+    border-bottom: 1px solid whitesmoke;
+    background-color: lavender;
+}
+
+ul.menu > li > a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-right: none;
+}
+
+ul.menu > li > a:hover {
+    background-color: white;
+    color: red;
+}
+
+/*------------------------------------------------RIGHT-------------------------------------*/
+
+section.right {
+    padding: 10px 100px;
+    width: 80%;
+    background-image: url("/images/logo&icon/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: 115%;
+    font-family: 'Anton', sans-serif;
+}
+
+section.right>img {
+    width: 400px;
+    height: 400px;
+}
+
+section.right .img-info {
+    padding: 10px;
+    position: relative;
+}
+
+section.right .img-info h2 {
+    font-size:xx-large;
+}
+
+section.right .img-info i {
+    width: 60px;
+    position: absolute;
+    top: 260px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+section.right .img-info>div:first-child i:last-child {
+    display: none;
+}
+
+/*----------LIST----------- */
+.mota{
+    text-align: left !important;
+}
+.mota ul{
+    list-style-type: none;
+    text-align: left !important;
+}
+.mota ul li{
+    float: left;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.v-food:hover img {
+    transform: none;
+}
+
+.v-food {
+    width: 18%;
+}
+

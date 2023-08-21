@@ -1,0 +1,21 @@
+[{
+    "src": "/images/milktea/tra_1.jpg",
+    "name": "Trà sữa trân châu trắng",
+    "price": "49.000"
+}, {
+    "src": "/images/milktea/tra_2.jpg",
+    "name": "Trà sữa Oreo Cake Cream",
+    "price": "35.000"
+}, {
+    "src": "/images/milktea/tra_3.jpg",
+    "name": "Trà sữa trân châu đường đen",
+    "price": "30.000"
+}, {
+    "src": "/images/milktea/tra_4.jpg",
+    "name": "Trà xoài kem cheese",
+    "price": "40.000"
+}, {
+    "src": "/images/milktea/tra_5.jpg",
+    "name": "Trà sữa khoai môn",
+    "price": "20.000"
+}]

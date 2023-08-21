@@ -1,0 +1,22 @@
+[{
+    "src": "/images/ga/ga_1.jpg",
+    "name": "Gà nướng muối ớt",
+    "price": "235.000"
+}, {
+    "src": "/images/ga/ga_2.jpg",
+    "name": "Gà hấp nước mắm",
+    "price": "179.000"
+}, 
+{
+    "src": "/images/ga/ga_3.jpg",
+    "name": "Gà luộc nước dừa",
+    "price": "149.000"
+}, {
+    "src": "/images/ga/ga_4.jpg",
+    "name": "Gà kho nghệ",
+    "price": "139.000"
+}, {
+    "src": "/images/ga/ga_5.jpg",
+    "name": "Gà chiên sốt me",
+    "price": "189.000"
+}]

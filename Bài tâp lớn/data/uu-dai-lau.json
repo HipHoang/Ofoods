@@ -1,0 +1,21 @@
+[{
+    "src": "/images/lau/lau_1.jpg",
+    "name": "Lẩu mắm",
+    "price": "199.000"
+}, {
+    "src": "/images/lau/lau_2.jpg",
+    "name": "Lẩu Thái",
+    "price": "189.000"
+}, {
+    "src": "/images/lau/lau_3.jpg",
+    "name": "Lẩu riêu cua bắp bò",
+    "price": "179.000"
+}, {
+    "src": "/images/lau/lau_4.jpg",
+    "name": "Lẩu gà lá giang",
+    "price": "150.000"
+}, {
+    "src": "/images/lau/lau_5.jpg",
+    "name": "Lẩu gà ớt hiểm",
+    "price": "160.000"
+}]
